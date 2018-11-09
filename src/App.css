@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,8 +18,28 @@
   color: white;
 }
 
+.App-button{
+  width: 60px;
+  height: 20px;
+  background-color: #fff;
+  /* color: #fff; */
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.App-button-group button{
+  width: 80px;
+  height: 20px;
+  background-color: #fff;
+  /* color: #fff; */
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+}
+.App-button-group button+button{
+  margin-left: 20px
+}
 .App-link {
-  color: #61dafb;
+  /* color: #61dafb; */
 }
 
 @keyframes App-logo-spin {
