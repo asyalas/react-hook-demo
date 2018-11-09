@@ -90,9 +90,7 @@ react作为前端目前很火的框架，拥有者无数的开发者和活跃的
   <header className="App-header" style={{backgroundColor:background}}>
 
   ```
-- useReducer
-
-提供一个简单化的redux
+- useReducer 提供一个简单化的redux
 
 ```js
 
@@ -125,8 +123,7 @@ const [state, dispatch] = useReducer(reducer, initialState)
           
 ```
 
-- useRef
-更加优雅的去获取ref对象
+- useRef 更加优雅的去获取ref对象
 
 ```js
   function useRefHandle(initial){
