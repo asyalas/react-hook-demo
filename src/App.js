@@ -1,16 +1,13 @@
-// import React from 'react';
+
 import logo from './logo.svg';
 import './App.css';
 import React ,{ 
-  // useHooks,
   useState,
   useEffect,
   useContext,
   useReducer ,
   useRef
-// } from "use-react-hooks";
 } from 'react'
-// react-hook是use-react-hooks的源代码，用于阅读源码
 
 const ThemeContext = React.createContext({
   background: '#282c34',
@@ -112,7 +109,7 @@ const App =(props)=> {
 
           {/* useRef demo */}
           <p>
-          useRef: <input type='text' ref={inputEl}/><button onClick={focusHandle}>搜索</button>
+          useRef: <input type='text' ref={inputEl}/><button onClick={focusHandle}>聚焦</button>
           </p>
           
           {/* useContext demo */}

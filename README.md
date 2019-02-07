@@ -32,6 +32,14 @@ react作为前端目前很火的框架，拥有者无数的开发者和活跃的
 
 所以，在美国时间10月26号React Conf 2018上,React 官方宣布 React v16.7.0-alpha 将引入名为 Hooks 的新特性,它使得在函数中也可以使用react的生命周期和状态。
 
+## 视频中文地址
+
+- react conf 第一部分
+http://www.iqiyi.com/w_19s383ms9d.html
+
+- react conf 第二部分
+http://www.iqiyi.com/w_19s2xeiycd.html
+
 ## 常用的hook
 
 - useState
