@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import "./App.css";
-import "antd/dist/antd.min.css";
 import { Input, Button } from "antd";
 import React, {
   useState,
@@ -8,7 +7,6 @@ import React, {
   useContext,
   useReducer,
   useRef,
-  useMemo,
   memo
 } from "react";
 
@@ -19,7 +17,7 @@ import {
   useWillUnmount,
   useInputState,
   usePrevious
-} from "./utils";
+} from "../../utils";
 const { Group } = Button;
 
 const ThemeContext = React.createContext({
